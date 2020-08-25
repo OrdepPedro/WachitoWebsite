@@ -12,7 +12,8 @@
 
 .container {
   max-width: 1366px;
-  padding: 3rem 10rem 1rem; }
+  padding: 3rem 10rem 1rem;
+  margin: auto; }
 
 .content .img-1 {
   margin: 2rem 0;
@@ -140,7 +141,7 @@
   .collection .item .price {
     color: #fff;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     position: absolute;
     top: 55%;
     left: 50%;
