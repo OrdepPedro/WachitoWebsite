@@ -17,10 +17,34 @@
 .content .img-1 {
   margin: 2rem 0;
   overflow: hidden;
-  height: 450px; }
+  height: 450px;
+  position: relative; }
   .content .img-1 img {
     max-width: 100%;
     object-fit: cover; }
+  .content .img-1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    background: rgba(0, 0, 0, 0.7); }
+  .content .img-1:hover .overlay {
+    opacity: 1;
+    pointer-events: none; }
+  .content .img-1 .text {
+    color: #fff;
+    font-family: "BlennyW01-Black", sans-serif;
+    font-size: 2.4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
 
 .content .img-2 {
   margin: 0 0 2rem 0;
@@ -60,7 +84,7 @@
 
 #footer .logo {
   font-family: "BlennyW01-Black", sans-serif;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 1.1;
   text-align: center;
   margin: 3rem auto 0; }
@@ -72,7 +96,7 @@
 #footer .social {
   display: flex;
   flex-direction: row-reverse;
-  margin-top: -1.4rem; }
+  margin-top: -1.2rem; }
   #footer .social .fab {
     margin-left: 0.8rem; }
 
@@ -85,7 +109,8 @@ body {
   font-family: "Source Sans Pro", sans-serif; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #000; }
   a:visited {
     color: #000; }
 
