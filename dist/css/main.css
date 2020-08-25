@@ -147,6 +147,30 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); }
 
+.collection .fas {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px; }
+
+.collection-content .collection-img {
+  margin: 2rem 0;
+  overflow: hidden;
+  height: 450px; }
+  .collection-content .collection-img img {
+    max-width: 100%;
+    object-fit: cover; }
+
+.collection-content .collection-text {
+  margin: auto 10rem; }
+  .collection-content .collection-text .section-title {
+    font-family: "BlennyW01-Black", sans-serif;
+    font-size: 2.2rem;
+    text-justify: inter-word;
+    text-align: center;
+    margin: auto; }
+  .collection-content .collection-text p {
+    text-align: left; }
+
 * {
   margin: 0;
   padding: 0;

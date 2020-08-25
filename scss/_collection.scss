@@ -1,0 +1,24 @@
+.collection-content {
+  .collection-img {
+    margin: 2rem 0;
+    overflow: hidden;
+    height: 450px;
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
+  }
+  .collection-text {
+    margin: auto 10rem;
+    .section-title {
+      font-family: "BlennyW01-Black", sans-serif;
+      font-size: 2.2rem;
+      text-justify: inter-word;
+      text-align: center;
+      margin: auto;
+    }
+    p {
+      text-align: left;
+    }
+  }
+}
