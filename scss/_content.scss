@@ -1,0 +1,58 @@
+.content {
+  .img {
+    &-1 {
+      margin: 2rem 0;
+      overflow: hidden;
+      height: 450px;
+      img {
+        max-width: 100%;
+
+        object-fit: cover;
+      }
+    }
+    &-2 {
+      margin: 0 0 2rem 0;
+      overflow: hidden;
+      height: 450px;
+      position: relative;
+      img {
+        max-width: 100%;
+
+        object-fit: cover;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: 0.5s ease-in-out;
+        background: rgba($color: #000000, $alpha: 0.7);
+      }
+
+      &:hover {
+        .overlay {
+          opacity: 1;
+          pointer-events: none;
+        }
+      }
+      .text {
+        color: $light-color;
+        font-family: "BlennyW01-Black", sans-serif;
+        font-size: 2.4rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+    }
+  }
+  .fas {
+    display: flex;
+    justify-content: center;
+  }
+}

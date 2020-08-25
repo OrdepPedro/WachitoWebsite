@@ -1,0 +1,28 @@
+@import "config";
+@import "navbar";
+@import "utilities";
+@import "content";
+@import "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  &:visited {
+    color: $dark-color;
+  }
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+}

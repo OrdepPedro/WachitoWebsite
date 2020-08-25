@@ -1,0 +1,22 @@
+#footer {
+  .logo {
+    font-family: "BlennyW01-Black", sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    text-align: center;
+    margin: 3rem auto 0;
+  }
+  .year {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -1.2rem;
+    .fab {
+      margin-left: 0.8rem;
+    }
+  }
+}

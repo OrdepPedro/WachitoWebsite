@@ -1,0 +1,14 @@
+{
+  "name": "wachitowebsite",
+  "version": "1.0.0",
+  "description": "Catalog Website for Wachito Co.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "Pedro Fontoura",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

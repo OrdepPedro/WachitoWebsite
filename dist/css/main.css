@@ -1,0 +1,96 @@
+#header #main-nav .logo {
+  font-family: "BlennyW01-Black", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.1; }
+
+#header #main-nav ul {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  vertical-align: text-bottom; }
+
+.container {
+  max-width: 1366px;
+  padding: 3rem 10rem 1rem; }
+
+.content .img-1 {
+  margin: 2rem 0;
+  overflow: hidden;
+  height: 450px; }
+  .content .img-1 img {
+    max-width: 100%;
+    object-fit: cover; }
+
+.content .img-2 {
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  height: 450px;
+  position: relative; }
+  .content .img-2 img {
+    max-width: 100%;
+    object-fit: cover; }
+  .content .img-2 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    background: rgba(0, 0, 0, 0.7); }
+  .content .img-2:hover .overlay {
+    opacity: 1;
+    pointer-events: none; }
+  .content .img-2 .text {
+    color: #fff;
+    font-family: "BlennyW01-Black", sans-serif;
+    font-size: 2.4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
+
+.content .fas {
+  display: flex;
+  justify-content: center; }
+
+#footer .logo {
+  font-family: "BlennyW01-Black", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.1;
+  text-align: center;
+  margin: 3rem auto 0; }
+
+#footer .year {
+  font-size: 1rem;
+  text-align: center; }
+
+#footer .social {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: -1.4rem; }
+  #footer .social .fab {
+    margin-left: 0.8rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Source Sans Pro", sans-serif; }
+
+a {
+  text-decoration: none; }
+  a:visited {
+    color: #000; }
+
+ul {
+  list-style: none; }
+
+li {
+  list-style: none; }
