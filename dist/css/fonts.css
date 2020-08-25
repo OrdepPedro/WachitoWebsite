@@ -1,0 +1,7 @@
+/* Fonts */
+
+@font-face {
+  font-family: "BlennyW01-Black";
+  src: url("https://modest-hoover-3d19b4.netlify.app/css/fonts/BlennyW01-Black.ttf")
+    format("truetype");
+}
