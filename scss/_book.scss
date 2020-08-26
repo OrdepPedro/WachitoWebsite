@@ -1,0 +1,19 @@
+.book-content {
+  .book-img {
+    margin: 2rem 0;
+    overflow: hidden;
+    height: 250px;
+    img {
+      max-width: 100%;
+      object-fit: cover;
+      object-position: 0 -50px;
+    }
+  }
+  .book-text {
+    margin: auto 10rem;
+
+    p {
+      text-align: left;
+    }
+  }
+}

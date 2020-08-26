@@ -1,0 +1,30 @@
+.flag-content {
+  .flag-img {
+    margin: 2rem 0;
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+    img {
+      max-width: 100%;
+      object-fit: cover;
+      object-position: 0 -100px;
+    }
+    .flag-head {
+      color: $light-color;
+      font-family: "BlennyW01-Black", sans-serif;
+      font-size: 2.4rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+  }
+  .flag-text {
+    margin: auto 10rem;
+
+    p {
+      text-align: left;
+    }
+  }
+}

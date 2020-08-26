@@ -1,5 +1,5 @@
 #header #main-nav .logo {
-  font-family: "blennyw01-blackregular", sans-serif;
+  font-family: "BlennyW01-Black", sans-serif;
   font-size: 2.4rem;
   line-height: 1.1; }
 
@@ -172,11 +172,48 @@
   .collection-content .collection-text p {
     text-align: left; }
 
-@font-face {
-  font-family: "blennyw01-blackregular";
-  src: url("https://github.com/OrdepPedro/WachitoWebsite/tree/master/dist/css/fonts/blenny_w01_black-webfont.woff2") format("woff2"), url("https://github.com/OrdepPedro/WachitoWebsite/tree/master/dist/css/fonts/blenny_w01_black-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+.book-content .book-img {
+  margin: 2rem 0;
+  overflow: hidden;
+  height: 250px; }
+  .book-content .book-img img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 0 -50px; }
+
+.book-content .book-text {
+  margin: auto 10rem; }
+  .book-content .book-text p {
+    text-align: left; }
+
+.flag-content .flag-img {
+  margin: 2rem 0;
+  overflow: hidden;
+  height: 250px;
+  position: relative; }
+  .flag-content .flag-img img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 0 -100px; }
+  .flag-content .flag-img .flag-head {
+    color: #fff;
+    font-family: "BlennyW01-Black", sans-serif;
+    font-size: 2.4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
+
+.flag-content .flag-text {
+  margin: auto 10rem; }
+  .flag-content .flag-text p {
+    text-align: left; }
+
+.contact-content .contact-text {
+  margin: 5rem 10rem; }
+  .contact-content .contact-text p {
+    text-align: left; }
 
 * {
   margin: 0;
