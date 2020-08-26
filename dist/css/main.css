@@ -1,5 +1,5 @@
 #header #main-nav .logo-li {
-  text-align: center;
+  align-self: center;
   display: inline-block;
   width: 30%;
   height: auto; }
@@ -55,8 +55,7 @@
   font-size: 1rem;
   display: flex;
   justify-content: space-between;
-  text-transform: uppercase;
-  vertical-align: text-bottom; }
+  text-transform: uppercase; }
 
 .container {
   max-width: 1366px;
@@ -83,18 +82,16 @@
     opacity: 0;
     transition: 0.5s ease-in-out;
     background: rgba(0, 0, 0, 0.7); }
+    .content .img-1 .overlay svg {
+      fill: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%); }
   .content .img-1:hover .overlay {
     opacity: 1;
     pointer-events: none; }
-  .content .img-1 .text {
-    color: #fff;
-    font-family: "BlennyW01-Black", sans-serif;
-    font-size: 2.4rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); }
 
 .content .img-2 {
   margin: 0 0 2rem 0;
@@ -116,22 +113,16 @@
     opacity: 0;
     transition: 0.5s ease-in-out;
     background: rgba(0, 0, 0, 0.7); }
+    .content .img-2 .overlay svg {
+      fill: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%); }
   .content .img-2:hover .overlay {
     opacity: 1;
     pointer-events: none; }
-  .content .img-2 .text {
-    color: #fff;
-    font-family: "BlennyW01-Black", sans-serif;
-    font-size: 2.4rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); }
-
-.content .fas {
-  display: flex;
-  justify-content: center; }
 
 #footer .footer-logo {
   text-align: center;
@@ -176,24 +167,22 @@
     opacity: 0;
     transition: 0.5s ease-in-out;
     background: rgba(0, 0, 0, 0.4); }
+    .collection .item .overlay svg {
+      fill: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%); }
   .collection .item:hover .overlay {
     opacity: 1;
     pointer-events: none; }
-  .collection .item .product-name {
-    color: #fff;
-    font-family: "BlennyW01-Black";
-    font-size: 1.2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); }
   .collection .item .price {
     color: #fff;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 0.8rem;
     position: absolute;
-    top: 55%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); }
@@ -245,10 +234,8 @@
     max-width: 100%;
     object-fit: cover;
     object-position: 0 -100px; }
-  .flag-content .flag-img .flag-head {
-    color: #fff;
-    font-family: "BlennyW01-Black", sans-serif;
-    font-size: 2.4rem;
+  .flag-content .flag-img svg {
+    fill: #fff;
     position: absolute;
     top: 50%;
     left: 50%;

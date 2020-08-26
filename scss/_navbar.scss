@@ -1,7 +1,8 @@
 #header {
   #main-nav {
     .logo-li {
-      text-align: center;
+      // text-align: center;
+      align-self: center;
       display: inline-block;
       width: 30%;
       height: auto;
@@ -82,7 +83,6 @@
       display: flex;
       justify-content: space-between;
       text-transform: uppercase;
-      vertical-align: text-bottom;
     }
   }
 }

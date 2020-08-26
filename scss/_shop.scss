@@ -25,6 +25,14 @@
       opacity: 0;
       transition: 0.5s ease-in-out;
       background: rgba($color: #000000, $alpha: 0.4);
+      svg {
+        fill: $light-color;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
     }
 
     &:hover {
@@ -33,22 +41,12 @@
         pointer-events: none;
       }
     }
-    .product-name {
-      color: $light-color;
-      font-family: "BlennyW01-Black";
-      font-size: 1.2rem;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-    }
     .price {
       color: $light-color;
       font-family: "Source Sans Pro", sans-serif;
       font-size: 0.8rem;
       position: absolute;
-      top: 55%;
+      top: 57%;
       left: 50%;
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
