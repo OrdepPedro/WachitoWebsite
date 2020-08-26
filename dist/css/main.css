@@ -7,26 +7,46 @@
 #header #main-nav svg {
   width: 100%;
   height: auto; }
-  #header #main-nav svg:hover #Caminho_1 {
+  #header #main-nav svg #Caminho_1 {
     fill: #e52522; }
-  #header #main-nav svg:hover #Caminho_2 {
+  #header #main-nav svg #Caminho_2 {
     fill: #f2e500; }
-  #header #main-nav svg:hover #Caminho_3 {
+  #header #main-nav svg #Caminho_3 {
     fill: #5da59d; }
-  #header #main-nav svg:hover #Caminho_4 {
+  #header #main-nav svg #Caminho_4 {
     fill: #da97c2; }
-  #header #main-nav svg:hover #Caminho_5 {
+  #header #main-nav svg #Caminho_5 {
     fill: #5aa69a; }
-  #header #main-nav svg:hover #Caminho_6 {
+  #header #main-nav svg #Caminho_6 {
     fill: #f2e500; }
-  #header #main-nav svg:hover #Caminho_7 {
+  #header #main-nav svg #Caminho_7 {
     fill: #ed6a1a; }
-  #header #main-nav svg:hover #Caminho_8 {
+  #header #main-nav svg #Caminho_8 {
     fill: #5bb030; }
-  #header #main-nav svg:hover #Caminho_9 {
+  #header #main-nav svg #Caminho_9 {
     fill: #e5251f; }
-  #header #main-nav svg:hover #Caminho_10 {
+  #header #main-nav svg #Caminho_10 {
     fill: #f2e500; }
+  #header #main-nav svg:hover #Caminho_1 {
+    fill: #000; }
+  #header #main-nav svg:hover #Caminho_2 {
+    fill: #000; }
+  #header #main-nav svg:hover #Caminho_3 {
+    fill: #000; }
+  #header #main-nav svg:hover #Caminho_4 {
+    fill: #000; }
+  #header #main-nav svg:hover #Caminho_5 {
+    fill: #000; }
+  #header #main-nav svg:hover #Caminho_6 {
+    fill: #000; }
+  #header #main-nav svg:hover #Caminho_7 {
+    fill: #000; }
+  #header #main-nav svg:hover #Caminho_8 {
+    fill: #000; }
+  #header #main-nav svg:hover #Caminho_9 {
+    fill: #000; }
+  #header #main-nav svg:hover #Caminho_10 {
+    fill: #000; }
 
 #header #main-nav .list-item {
   padding-top: 12.8px; }
@@ -113,12 +133,12 @@
   display: flex;
   justify-content: center; }
 
-#footer .logo {
-  font-family: "BlennyW01-Black", sans-serif;
-  font-size: 2.2rem;
-  line-height: 1.1;
+#footer .footer-logo {
   text-align: center;
-  margin: 3rem auto 0; }
+  margin: 2.5rem 0 1rem 0; }
+  #footer .footer-logo svg {
+    width: 25%;
+    height: auto; }
 
 #footer .year {
   font-size: 1rem;
