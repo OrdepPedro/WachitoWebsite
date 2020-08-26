@@ -1,10 +1,52 @@
 #header {
   #main-nav {
-    .logo {
-      font-family: "BlennyW01-Black", sans-serif;
-      font-size: 2.4rem;
-      line-height: 1.1;
+    .logo-li {
+      text-align: center;
+      display: inline-block;
+      width: 30%;
+      height: auto;
     }
+    svg {
+      width: 100%;
+      height: auto;
+      &:hover {
+        #Caminho_1 {
+          fill: #e52522;
+        }
+        #Caminho_2 {
+          fill: #f2e500;
+        }
+        #Caminho_3 {
+          fill: #5da59d;
+        }
+        #Caminho_4 {
+          fill: #da97c2;
+        }
+        #Caminho_5 {
+          fill: #5aa69a;
+        }
+        #Caminho_6 {
+          fill: #f2e500;
+        }
+        #Caminho_7 {
+          fill: #ed6a1a;
+        }
+        #Caminho_8 {
+          fill: #5bb030;
+        }
+        #Caminho_9 {
+          fill: #e5251f;
+        }
+        #Caminho_10 {
+          fill: #f2e500;
+        }
+      }
+    }
+
+    .list-item {
+      padding-top: 12.8px;
+    }
+
     ul {
       font-size: 1rem;
       display: flex;
