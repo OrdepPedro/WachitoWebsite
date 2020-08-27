@@ -1,0 +1,33 @@
+// Smallers Desktops and Ipads Pro
+@media screen and (max-width: 1024px) {
+  // Index page
+  .content {
+    .img {
+      &-1 {
+        .overlay {
+          opacity: 1;
+        }
+      }
+      &-2 {
+        .overlay {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  //   Shop page
+  .collection {
+    .item {
+    }
+  }
+}
+
+// Tablets
+@media screen and (max-width: 768px) {
+  .collection {
+    .products {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
