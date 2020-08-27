@@ -125,7 +125,7 @@
 
 #footer .footer-logo {
   text-align: center;
-  margin: 2.5rem 0 1rem 0; }
+  margin: 2.5rem 0 0 0; }
   #footer .footer-logo svg {
     width: 25%;
     height: auto; }
@@ -165,7 +165,7 @@
     height: 100%;
     opacity: 0;
     transition: 0.5s ease-in-out;
-    background: rgba(0, 0, 0, 0.4); }
+    background: rgba(0, 0, 0, 0.2); }
     .collection .item .overlay svg {
       fill: #fff;
       position: absolute;
@@ -210,19 +210,22 @@
   .collection-content .collection-text p {
     text-align: left; }
 
-.book-content .book-img {
-  margin: 2rem 0;
-  overflow: hidden;
-  height: 250px; }
-  .book-content .book-img img {
-    max-width: 100%;
-    object-fit: cover;
-    object-position: 0 -50px; }
-
-.book-content .book-text {
-  margin: auto 10rem; }
-  .book-content .book-text p {
-    text-align: left; }
+.book-content {
+  display: flex;
+  flex-wrap: wrap; }
+  .book-content .book-img {
+    margin: 2rem 0;
+    overflow: hidden;
+    max-height: 250px; }
+    .book-content .book-img img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      object-position: 0 -50px; }
+  .book-content .book-text {
+    margin: auto 10rem; }
+    .book-content .book-text p {
+      text-align: left; }
 
 .flag-content .flag-img {
   margin: 2rem 0;
@@ -242,7 +245,9 @@
     -ms-transform: translate(-50%, -50%); }
 
 .flag-content .flag-text {
-  margin: auto 10rem; }
+  margin: auto 10rem;
+  text-transform: uppercase;
+  font-size: 1.5rem; }
   .flag-content .flag-text p {
     text-align: left; }
 
@@ -280,4 +285,16 @@ li {
 @media screen and (max-width: 768px) {
   .collection .products {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .collection .item .overlay {
+    opacity: 1; }
+    .collection .item .overlay svg {
+      top: 88%; }
+  .collection .item .price {
+    top: 95%; }
+  .book-content .book-text {
+    margin: auto 6rem; }
+  .flag-content .flag-text {
+    margin: auto 6rem; }
+  .contact-content .contact-text {
+    margin: 6rem; } }

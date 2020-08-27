@@ -1,10 +1,13 @@
 .book-content {
+  display: flex;
+  flex-wrap: wrap;
   .book-img {
     margin: 2rem 0;
     overflow: hidden;
-    height: 250px;
+    max-height: 250px;
     img {
       max-width: 100%;
+      height: auto;
       object-fit: cover;
       object-position: 0 -50px;
     }

@@ -2,12 +2,3 @@
 $website-width: 960px;
 $dark-color: #000;
 $light-color: #fff;
-
-// Set Color function
-@function set-color($color) {
-  @if (lightness($color) > 50) {
-    @return $dark-color;
-  } @else {
-    @return $light-color;
-  }
-}

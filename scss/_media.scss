@@ -24,10 +24,42 @@
 
 // Tablets
 @media screen and (max-width: 768px) {
+  // Shop Page
   .collection {
     .products {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+    }
+    .item {
+      .overlay {
+        opacity: 1;
+        svg {
+          top: 88%;
+        }
+      }
+      .price {
+        top: 95%;
+      }
+    }
+  }
+
+  // Book Page
+  .book-content {
+    .book-text {
+      margin: auto 6rem;
+    }
+  }
+
+  // Flag Page
+  .flag-content {
+    .flag-text {
+      margin: auto 6rem;
+    }
+  }
+  // contact Page
+  .contact-content {
+    .contact-text {
+      margin: 6rem;
     }
   }
 }
