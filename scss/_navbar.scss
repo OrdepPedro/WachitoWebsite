@@ -1,6 +1,7 @@
 #header {
   #main-nav {
     .logo-li {
+      position: relative;
       // text-align: center;
       align-self: center;
       display: inline-block;
@@ -10,6 +11,10 @@
     svg {
       width: 100%;
       height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -70%);
       #Caminho_1 {
         fill: #e52522;
       }
@@ -75,7 +80,6 @@
     }
 
     .list-item {
-      padding-top: 12.8px;
     }
 
     ul {
